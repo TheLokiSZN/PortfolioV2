@@ -3,7 +3,7 @@ import './App.css';
 import Nav from './components/Nav'
 import Page from './components/Page'
 import Footer from './components/Footer'
-import Header from './components/Header'
+// import Header from './components/Header'
 
 function App() {
   const [pages] = useState([
@@ -23,7 +23,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0])
   return (
     <div>
-      <Header>
+      
         <Nav
         pages={pages}
         setCurrentPage={setCurrentPage}
@@ -31,7 +31,7 @@ function App() {
         >
 
         </Nav>
-      </Header>
+      
       <main>
         <Page
         currentPage={currentPage}
