@@ -9,7 +9,7 @@ function Projects({ projects }) {
           src={require(`../../assets/img/${name}.jpg`)}
           className="projectImg"
           alt={name}
-        ></img>
+        />
         <div className="projectText">
           <h3>
             <a href={link}>Project: {name}</a>
