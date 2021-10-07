@@ -11,8 +11,8 @@ function Nav(props) {
   }, [currentPage])
     return (
       <div>
-        <nav>
-          <ul>
+        <nav style={{display: 'inline-block'}}>
+          <ul style={{display: 'inline'}}>
             {pages.map((Page) => (
               <li
               className={`mx-5 ${currentPage.name === Page.name && "navActive"}`}

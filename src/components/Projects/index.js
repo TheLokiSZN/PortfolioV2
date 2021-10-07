@@ -1,20 +1,23 @@
 import React from "react";
+import './portfolio.css'
 
 function Projects({ projects }) {
-  const { name, link, description, repoLink } = projects;
+  const { name, link, description, repoLink, img } = projects;
   return (
-    <div>
+    <div style={{display:"inline-block", padding: '5px'}}>
       <div className="projects" key={name}>
+      <a href={link}>
         <img
-          src={require(`../../assets/img/${name}.jpg`)}
+          src={img}
           className="projectImg"
           alt={name}
         />
+        </a>
         <div className="projectText">
           <h3>
-            <a href={link}>Project: {name}</a>
+            Project: {name}
           </h3>
-          <p>
+          <p className="description">
             {description}
           </p>
           <p>
@@ -27,3 +30,4 @@ function Projects({ projects }) {
 }
 
 export default Projects;
+
