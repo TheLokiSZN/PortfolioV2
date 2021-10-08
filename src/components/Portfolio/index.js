@@ -7,7 +7,7 @@ import CodeRefractor from '../../assets/img/Code-Refractor.jpg';
 import PasswordGenerator from '../../assets/img/Password-Generator.jpg';
 import QuizGame from '../../assets/img/Quiz-Game.jpg';
 import DayPlanner from '../../assets/img/Day-Planner.jpg';
-import MVCTechBlog from '../../assets/img/MVC-Tech-Blog.jpg';
+import MVCTechBlog from '../../assets/img/MVC-Tech-Blog.png';
 import WorkoutTracker from '../../assets/img/Workout-Tracker.jpg';
 
 
@@ -15,14 +15,14 @@ function Portfolio() {
     const [projects] = useState([
         {
             name: 'Plan Rain Check',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://kevinlacarrubba.github.io/plan-rain-check/',
             repoLink: 'https://github.com/KevinLaCarrubba/plan-rain-check',
             img: `${PlanRainCheck}`
         },
         {
             name: 'Crypto Forum',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://cryptotalk-forum.herokuapp.com/',
             repoLink: 'https://github.com/KevinLaCarrubba/Crypto-Forum',
             img: `${CryptoForum}`
@@ -30,7 +30,7 @@ function Portfolio() {
         },
         {
             name: 'Project 3',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'more words x2',
             repoLink: 'github link x2',
             img: `${Project3}`
@@ -44,35 +44,35 @@ function Portfolio() {
         },
         {
             name: 'Password Generator',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://thelokiszn.github.io/PW-Repo/',
             repoLink: 'https://github.com/TheLokiSZN/PW-Repo',
             img: `${PasswordGenerator}`
         },
         {
             name: 'Quiz Game',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://thelokiszn.github.io/Quiz/',
             repoLink: 'https://github.com/TheLokiSZN/Quiz',
             img: `${QuizGame}`
         },
         {
             name: 'Day Planner',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://thelokiszn.github.io/Day-Planner/',
             repoLink: 'https://github.com/TheLokiSZN/Day-Planner',
             img: `${DayPlanner}`
         },
         {
             name: 'MVC Tech Blog',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://mvc-tech-blog-2.herokuapp.com/',
             repoLink: 'https://github.com/TheLokiSZN/MVC-Tech-blog2',
             img: `${MVCTechBlog}`
         },
         {
             name: 'Workout Tracker',
-            description: 'words x2',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
             link: 'https://workout-tracker424.herokuapp.com/',
             repoLink: 'https://github.com/TheLokiSZN/Workout-Tracker',
             img: `${WorkoutTracker}`
