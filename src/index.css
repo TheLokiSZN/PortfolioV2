@@ -1,10 +1,20 @@
-body {
+body, html, .App {
+  min-height: 100vh;
+  background-color: black;
   margin: 0;
+};
+
+body {
+  margin: 0, !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  height: 100%;
 }
 
 code {
@@ -27,4 +37,8 @@ nav {
   flex-wrap: wrap;
   justify-content: flex-end;
   justify-items: flex-end;
+}
+
+.aboutMe {
+  height: 100%;
 }
